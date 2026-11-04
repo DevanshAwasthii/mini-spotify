@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome To India's Largest Listened Clone</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    
+    <nav>
+        <ul>
+            <li class="brand" ><img src="logo.png" alt="Spotify">Spotify</li>
+            <div class="searchbar">
+             <li><input type="text"></li>
+            </div>
+            <div class="Navdetails">
+            <li>Home </li>
+            <li>About</li>
+            </div>
+            
+        </ul>
+        
+    </nav>
+    <div class="maincontainer">
+    <aside class="side-container side-container-left" aria-hidden="true"></aside>
+    <main class="container">
+        
+        <div class="songList">
+            <h1>BEST OF ALL TIME</h1>
+            <div class="songitemcontainer">
+                <div class="songItem">
+                    <img src="covers/cover.jpg" alt="1">
+                    <span >Barsaat : Banjaare  Roni</span>
+                    
+                    <span class="songlistplay">
+                        <span class="timestamp"> 03:05 <i class="fa-solid fa-play"></i></span>
+                        
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/hanuman.jpg" alt="1">
+                    <span>Hanuman Chalisa  :  Tulsidas</span>
+                    <span class="songlistplay">
+                        <span class="timestamp">05:34 <i class="fa-solid fa-play"></i></span>
+                        
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/O Rangrez x Vincent Van Gogh’s Painting.jpg" alt="1">
+                    <span>O Rangrez  :  Shreya </span>
+                    <span class="songlistplay">
+                        <span class="timestamp">06:24 <i class="fa-solid fa-play"></i></span>
+                        
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/Alfaaz.jpg" alt="1">
+                    <span>Alfaaz  :  Hamza Malik</span>
+                    <span class="songlistplay">
+                        <span class="timestamp">02:52 <i class="fa-solid fa-play"></i></span>
+                        
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/last.jpg" alt="1">
+                    <span>Varoon </span>
+                    <span class="songlistplay">
+                        <span class="timestamp">04:12 <i class="fa-solid fa-play"></i></span>
+                        
+                    </span>
+                </div>
+
+            </div>
+        </div>
+        <div class="banner"></div>
+    </main>
+    <aside class="side-container side-container-right" aria-hidden="true"></aside>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range " id="myProgressBar" min="0" max="100" value="0">
+        
+        <div class="icons"> 
+
+            <!--fontawesome icons-->
+
+        <div class="buttons">
+        <button id="previousSong" type="button" aria-label="Previous song">
+            <i class="fa-3x fa-solid fa-backward-step" aria-hidden="true"></i>
+        </button>
+        <button id="masterPlay" type="button" aria-label="Play" data-playing="false">
+            <i class="fa-3x fa-solid fa-circle-play" aria-hidden="true"></i>
+            <i class="fa-3x fa-solid fa-circle-pause" aria-hidden="true"></i>
+        </button>
+        <button id="nextSong" type="button" aria-label="Next song">
+            <i class="fa-3x fa-solid fa-forward-step" aria-hidden="true"></i>
+        </button>
+        </div>
+         
+         
+         
+
+
+        </div>
+        <div class="songinfo">
+            <div   class="song-animation" autoplay loop muted playsinline aria-label="Now playing animation">
+                <img id="gif" src="gif.gif" > 
+            </div>
+            <span id="nowPlayingTitle"></span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/a2407e9c7a.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    
+
+    
+</body>
+</html>

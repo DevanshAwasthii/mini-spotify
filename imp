@@ -1,0 +1,8 @@
+grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+mix-blend-mode: screen;---this removes the black bacground but keep the required part of image intact , can be used with multiple image so their black bacgrounddont hide other images 
+timeupdate Event in javascript is used to deal with change in the progressbar and real time audio movement
+song--barssaat
+song2--hanuman chalisa
+song3--o ragrezz
+song4-varoon
+song5- alfaaz
