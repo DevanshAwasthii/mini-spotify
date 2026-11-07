@@ -4,26 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome To India's Largest Listened Clone</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<link rel="stylesheet" href="style.css">
 <body>
     
     <nav>
-        <ul>
-            <li class="brand" ><img src="logo.png" alt="Spotify">Spotify</li>
-            <div class="searchbar">
-             <li><input type="text"></li>
-            </div>
+        <div class="navbar">
+            <a class="brand" href="#" aria-label="Spotify home">
+                <img src="logo.png" alt="">
+                <span>Spotify</span>
+            </a>
+            <form class="searchbar" role="search" aria-label="Search music">
+                <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+                <input type="search" placeholder="What do you want to play?" aria-label="Search songs">
+            </form>
             <div class="Navdetails">
-            <li>Home </li>
-            <li>About</li>
+                <a class="home-link" href="#" aria-label="Home" title="Home">
+                    <i class="fa-solid fa-house" aria-hidden="true"></i>
+                </a>
+                <a class="about-link" href="#about">About</a>
+                <span class="nav-divider" aria-hidden="true"></span>
+                <button class="signup-button" type="button">Sign up</button>
+                <button class="login-button" type="button">Log in</button>
             </div>
-            
-        </ul>
-        
+        </div>
     </nav>
     <div class="maincontainer">
-    <aside class="side-container side-container-left" aria-hidden="true"></aside>
+    <aside class="side-container side-container-left" aria-hidden="true">
+       <button class="sidelist">Explore Songs With Spotify</button> 
+       <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/24oFJ0TePVm30mqGr5LR2J?utm_source=generator&si=c2c0439ab8794985" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+       
+    </aside>
     <main class="container">
         
         <div class="songList">
